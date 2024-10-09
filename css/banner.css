@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .logo {
@@ -51,6 +50,7 @@
   border: 2px solid transparent;
   border-image-source: var(--gradiente-borda);
   border-image-slice: 1;
+  cursor: pointer;
   font-size: 1rem;
   font-weight: 900;
   line-height: 18.78px;
