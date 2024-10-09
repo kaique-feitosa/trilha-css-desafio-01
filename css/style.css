@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap");
+@import url("./banner.css");
+
 * {
   box-sizing: border-box;
   border: none;
@@ -9,7 +12,7 @@
   --fundo-banner: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.6) 0%,
-    rgba(49, 168, 221, 0) 100%
+    rgba(49, 168, 221, 0.1) 100%
   );
 
   --gradiente-titulo: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
@@ -19,4 +22,11 @@
 
   --cor-principal: #33a8db;
   --cinza-escuro: #252525;
+
+  --fonte-principal: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  font-family: var(--fonte-principal);
 }
