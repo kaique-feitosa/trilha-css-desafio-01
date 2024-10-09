@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+:root {
+  --fundo-banner: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(49, 168, 221, 0) 100%
+  );
+
+  --gradiente-titulo: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+  --gradiente-borda: linear-gradient(180deg, #3ba1cd 0%, #1572b7 100%);
+
+  --texto-botao: #31a8dd;
+
+  --cor-principal: #33a8db;
+  --cinza-escuro: #252525;
+}
